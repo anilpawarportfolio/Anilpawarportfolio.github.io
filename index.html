@@ -659,7 +659,7 @@
     const nav=document.getElementById('nav');
     window.addEventListener('scroll',()=>{nav.classList.toggle('scrolled',window.scrollY>60);});
     const typingEl=document.getElementById('typing-cursor');
-    const roles=['Research Analyst','RevOps Analyst','Market Research Analyst','Data Analyst'];
+    const roles=['Data Analyst','RevOps Analyst','Market Research Analyst','Research Analyst'];
     let rIdx=0,cIdx=0,deleting=false;
     function type(){
       const word=roles[rIdx];
